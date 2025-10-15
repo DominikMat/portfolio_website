@@ -91,7 +91,7 @@ export default function ModalSimple({ selected, modalOpen, setModalOpen }) {
                                         return (
                                             <div key={idx}>
                                                 {videoId ? (
-                                                        <LazyYT url={src} height={340} />
+                                                    <LazyYT url={src} height={340} />
                                                 ) : src && src.endsWith('.mp4') ? (
                                                     <video src={src} controls muted loop style={carouselItemStyle} />
                                                 ) : (

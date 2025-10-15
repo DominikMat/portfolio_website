@@ -2,7 +2,7 @@
 export const ProjectData = [
     // portfolio
     {
-    title: 'Portfolio Website',
+    title: 'Portfolio',
     tag: 'Website',
     startDate: '2025',
     endDate: '2025',
@@ -28,6 +28,9 @@ export const ProjectData = [
         built with React.
     `,
     stats: [
+    ],
+    links: [
+        {title: "Github Repository", url:'https://github.com/DominikMat/portfolio_website.git', filePath:''},
     ]
     },
     // rubiks
@@ -38,9 +41,9 @@ export const ProjectData = [
     endDate: '2025',
     description: 'an app to automatically solve Rubiks cubes, and show moves and animations',
     image1: '/portfolio_website/images/rubiks/app.png',
-    image2: '/portfolio_website/images/rubiks/logo.png',
+    image2: '/portfolio_website/images/rubiks/rubiks-logo.png',
     images: [
-        '/portfolio_website/images/rubiks/logo.png',
+        '/portfolio_website/images/rubiks/rubiks-logo.png',
         '/portfolio_website/images/rubiks/app.png',
         '/portfolio_website/images/rubiks/py-logo.png',
         '/portfolio_website/images/rubiks/image-creator.png',
@@ -52,11 +55,14 @@ export const ProjectData = [
 
     `,
     stats: [
+    ],
+    links: [
+        {title: "Github Repository", url:'https://github.com/filip-zolnierczyk/PythonCubeProject.git', filePath:''},
     ]
     },
     // online shop
     {
-    title: 'Online Shop Website',
+    title: 'Prestissimo.com',
     tag: 'Website',
     startDate: '2024',
     endDate: '2024',
@@ -77,6 +83,9 @@ export const ProjectData = [
         built in React.
     `,
     stats: [
+    ],
+    links: [
+        {title: "Github Repository", url:'https://github.com/AdrianSuliga/OnlineShop.git', filePath:''},
     ]
     },
     // stargazing
@@ -93,6 +102,8 @@ export const ProjectData = [
         '/portfolio_website/images/stargaze-site/main_site.png',
         '/portfolio_website/images/stargaze-site/gallery.png',
         '/portfolio_website/images/stargaze-site/contact-form.png',
+        '/portfolio_website/images/stargaze-site/drawing.jpg',
+        '/portfolio_website/images/stargaze-site/drawing-2.jpg',
     ],
     details: `
         a school project website, displays constallation with star info
@@ -101,6 +112,9 @@ export const ProjectData = [
         built in pure HTML
     `,
     stats: [
+    ],
+    links: [
+        {title: "Github Repository (under projekt1)", url:'https://github.com/DominikMat/Apki-Internetowe.git', filePath:''},
     ]
     },
     // evolution
@@ -111,9 +125,9 @@ export const ProjectData = [
     endDate: '2024',
     description: 'a school project app, simulates grazing animals with genetic code',
     image1: '/portfolio_website/images/evolution/sim.png',
-    image2: '/portfolio_website/images/evolution/logo.png',
+    image2: '/portfolio_website/images/evolution/evo-logo.png',
     images: [
-        '/portfolio_website/images/evolution/logo.png',
+        '/portfolio_website/images/evolution/evo-logo.png',
         '/portfolio_website/images/evolution/sim.png',
         '/portfolio_website/images/evolution/params.png',
     ],
@@ -123,6 +137,9 @@ export const ProjectData = [
         built with Java.
     `,
     stats: [
+    ],
+    links: [
+        {title: "Github Repository", url:'https://github.com/tomaszmol/projekt_PO.git', filePath:''},
     ]
     },
     // giraffean
@@ -132,13 +149,13 @@ export const ProjectData = [
     startDate: '2022-03-29',
     endDate: '2022-04-15',
     description: 'canonballs versus giraffe',
-    image1: '//portfolio_website/images/giraffe/1.png',
-    image2: '//portfolio_website/images/giraffe/2.png',
+    image1: '/portfolio_website/images/giraffe/giraffe  (1).png',
+    image2: '/portfolio_website/images/giraffe/giraffe  (2).png',
     images: [
-        '/portfolio_website/images/giraffe/1.png',
-        '/portfolio_website/images/giraffe/2.png',
-        '/portfolio_website/images/giraffe/3.png',
-        '/portfolio_website/images/giraffe/4.JPG'
+        '/portfolio_website/images/giraffe/giraffe  (1).png',
+        '/portfolio_website/images/giraffe/giraffe  (2).png',
+        '/portfolio_website/images/giraffe/giraffe  (3).png',
+        '/portfolio_website/images/giraffe/giraffe  (1).JPG',
     ],
     details: `
         Progress:
@@ -164,7 +181,7 @@ export const ProjectData = [
         { label: 'Total Time spent', value: "17days, 46.5h, ~2.75h a day" },
     ],
     links: [
-        {title: "The Giraffen Campaign PC version", url:'', filePath:'/portfolio_website/images/giraffe/The-Giraffean-Campaign-PC.zip'},
+        {title: "The Giraffen Campaign PC version", url:'https://drive.google.com/file/d/1h3rdz3KpPmPdXKzXBId05vOXWw41Er4M/view?usp=sharing', filePath:''},
         {title: "Devlog Videos (YT Playlist)", url:'https://www.youtube.com/playlist?list=PLJX6VUSvLT5RVY-xhGaSjj7B042wMYZIM', filePath:''}
     ]
     },
@@ -184,7 +201,7 @@ export const ProjectData = [
             '/portfolio_website/images/gong/Gong Alarm (4).jpg',
             '/portfolio_website/images/gong/Gong Alarm (5).jpg',
             '/portfolio_website/images/gong/Gong Alarm (6).jpg',
-            '/portfolio_website/images/gong/Gong Alarm (1).mp4',
+            'https://www.youtube.com/watch?v=zPBFU7ZbkVs',
         ],
         details: `
         a miniature and motorized chinese gong to wake me up
@@ -212,18 +229,18 @@ export const ProjectData = [
     startDate: '2021-12-10',
     endDate: '2022-XX-XX',
     description: 'fluid simulation, cell-based and SPH',
-    image1: '/portfolio_website/images/fluid/ (5).png',
-    image2: '/portfolio_website/images/fluid/ (12).png',
+    image1: '/portfolio_website/images/fluid/fluid (5).png',
+    image2: '/portfolio_website/images/fluid/fluid (9).png',
     images: [
-        '/portfolio_website/images/fluid/ (5).png',
-        '/portfolio_website/images/fluid/ (6).png',
-        '/portfolio_website/images/fluid/ (7).png',
-        '/portfolio_website/images/fluid/ (11).png',
-        '/portfolio_website/images/fluid/ (12).png',
-        '/portfolio_website/images/fluid/ (13).png',
+        '/portfolio_website/images/fluid/fluid (5).png',
+        '/portfolio_website/images/fluid/fluid (6).png',
+        '/portfolio_website/images/fluid/fluid (7).png',
+        '/portfolio_website/images/fluid/fluid (8).png',
+        '/portfolio_website/images/fluid/fluid (9).png',
+        '/portfolio_website/images/fluid/fluid (10).png',
         '/portfolio_website/images/fluid/DSC_0237.JPG',
-        '/portfolio_website/images/fluid/Fluid Engine II.mp4',
-        '/portfolio_website/images/fluid/SPH Test I.mp4',
+        'https://youtu.be/8v7jRq7eyCQ',
+        'https://youtu.be/Ra7vjeXGca4',
     ],
     details: `
     First I created a cell based simulation in Unity, but it was slow,
@@ -239,7 +256,7 @@ export const ProjectData = [
     links: [
         {title: "Fluid Engine Videos (YT Playlist)", url:'https://www.youtube.com/playlist?list=PLJX6VUSvLT5RnLE8cEcDfddoYloI3ZBgT', filePath:''},
         {title: "SPH Fluid Videos (YT Playlist)", url:'https://www.youtube.com/playlist?list=PLJX6VUSvLT5RpJeCM139PUpdwGMB6E-0r', filePath:''},
-        {title: "SPH Fluid Simulation - HTML", url:'', filePath:'/portfolio_website/images/fluid/sph-fluid-sim-html.zip'},
+        {title: "SPH Fluid Simulation - HTML", url:'https://drive.google.com/file/d/1X7boNwWbTHN7smb6Bz7bNeCsBvWzxY0O/view?usp=sharing', filePath:''},
     ]
     },
     // softbodies
@@ -254,8 +271,8 @@ export const ProjectData = [
     images: [
         '/portfolio_website/images/soft/softbody-1.png',
         '/portfolio_website/images/soft/softbody-2.png',
-        '/portfolio_website/images/soft/softbody-vid.mp4',
-        '/portfolio_website/images/soft/Softbody II.mp4',
+        'https://youtu.be/jLjjc2Xi09k',
+        'https://youtu.be/Z3psJtYVMjo',
         'https://youtu.be/1YUxuCOjEdw',
     ],
     details: `
@@ -266,9 +283,9 @@ export const ProjectData = [
     stats: [
     ],
     links: [
-        {title: "Softbody Simulation SFML - PC", url:'', filePath:'/portfolio_website/images/soft/softbody-sfml-PC.zip'},
-        {title: "Softbody Simulation HTML - PC", url:'', filePath:'/portfolio_website/images/soft/softbody-sim-html.zip'},
-        {title: "Abstract Softness - Android", url:'', filePath:'/portfolio_website/images/soft/abstractSoftness-Android.apk'},
+        {title: "Softbody Simulation SFML - PC", url:'https://drive.google.com/file/d/1JsPKmjE6ILm1fNppHuHoclQEhjUEIPkf/view?usp=sharing', filePath:''},
+        {title: "Softbody Simulation HTML - PC", url:'https://drive.google.com/file/d/1VMwr1ccoLVnojJbPXA4FvKxlqpe52lCn/view?usp=sharing', filePath:''},
+        {title: "Abstract Softness - Android", url:'https://drive.google.com/file/d/1P7MzJqBDNhVHBO0WR_cFF6cDa7FZYd-s/view?usp=sharing', filePath:''},
     ]
     },
     // disquiet
@@ -290,7 +307,6 @@ export const ProjectData = [
             '/portfolio_website/images/disquiet/DSC_0584.JPG',
             '/portfolio_website/images/disquiet/DSC_0587.JPG',
             '/portfolio_website/images/disquiet/image (1).png',
-            '/portfolio_website/images/disquiet/image (2).png',
             '/portfolio_website/images/disquiet/DSC_0629.JPG',
             '/portfolio_website/images/disquiet/DSC_0633.JPG',
             'https://youtu.be/EY59PGJ3V_k',
@@ -328,9 +344,9 @@ export const ProjectData = [
         images: [
             '/portfolio_website/images/chaos/Chaos Pendulum (1).jpg',
             '/portfolio_website/images/chaos/Chaos_Pendulum_(2).jpg',
-            '/portfolio_website/images/chaos/Chaos Pendulum (3).mp4',
-            '/portfolio_website/images/chaos/VID_20221126_003816.mp4',
-            '/portfolio_website/images/chaos/VID_20221126_003918.mp4',
+            'https://youtu.be/9DSRXqGEiEk',
+            'https://youtu.be/kRcW76c-ZZk',
+            'https://youtu.be/CMGnyCtR5CA',
             'https://youtu.be/AO2fhzG1B2w',
         ],
         details: `
@@ -350,16 +366,16 @@ export const ProjectData = [
         startDate: '2021-04-15',
         endDate: '2021-04-24',
         description: 'playing around with newtonian gravity simulations',
-        image1: '/portfolio_website/images/gravity/(2).png',
-        image2: '/portfolio_website/images/gravity/1.JPG',
+        image1: '/portfolio_website/images/gravity/gravity (3).png',
+        image2: '/portfolio_website/images/gravity/gravity (2).JPG',
         images: [
-            '/portfolio_website/images/gravity/(1).png',
-            '/portfolio_website/images/gravity/(2).png',
-            '/portfolio_website/images/gravity/3.png',
-            '/portfolio_website/images/gravity/1.JPG',
-            '/portfolio_website/images/gravity/(2).JPG',
-            '/portfolio_website/images/gravity/(3).JPG',
-            '/portfolio_website/images/gravity/gravity-vid.mp4',
+            '/portfolio_website/images/gravity/gravity (2).png',
+            '/portfolio_website/images/gravity/gravity (3).png',
+            '/portfolio_website/images/gravity/gravity (4).png',
+            '/portfolio_website/images/gravity/gravity (2).JPG',
+            '/portfolio_website/images/gravity/gravity (3).JPG',
+            '/portfolio_website/images/gravity/gravity (4).JPG',
+            'https://youtu.be/hCfsjraMaRc',
         ],
         details: `
         Taking a break while doing the DAES
@@ -370,9 +386,9 @@ export const ProjectData = [
         `,
         stats: [],
         links: [
-            {title: "Solar System Simulation - PC", url:'', filePath:'/portfolio_website/images/gravity/Solar-system-simulation-PC.zip'},
-            {title: "Three body - Android", url:'', filePath:'/portfolio_website/images/gravity/ThreeBody-Android.apk'},
-            {title: "Gravity Simulation - HTML", url:'', filePath:'/portfolio_website/images/gravity/gravity-sim-html.zip'}
+            {title: "Solar System Simulation - PC", url:'https://drive.google.com/file/d/1ZdceGFTvNG5vzDfEH3bzUkn3TIHVSudB/view?usp=sharing', filePath:''},
+            {title: "Three body - Android", url:'https://drive.google.com/file/d/1q-ejeIB6ihqUH9df4pHX36R8dH87KhoH/view?usp=sharing', filePath:''},
+            {title: "Gravity Simulation - HTML", url:'https://drive.google.com/file/d/1YDdSvx3ummSVUOzJJsfr70oLFfTmBlYP/view?usp=sharing', filePath:''}
         ]
     },
     // polygon ninja
@@ -382,15 +398,15 @@ export const ProjectData = [
         startDate: '2021-07-02',
         endDate: '2021-08-12',
         description: 'game(s) about slicing 3d objects',
-        image1: '//portfolio_website/images/polygon/1.png',
-        image2: '//portfolio_website/images/polygon/2.png',
+        image1: '/portfolio_website/images/polygon/polygon (1).png',
+        image2: '/portfolio_website/images/polygon/polygon (2).png',
         images: [
-            '/portfolio_website/images/polygon/1.png',
-            '/portfolio_website/images/polygon/2.png',
-            '/portfolio_website/images/polygon/3.png',
+            '/portfolio_website/images/polygon/polygon (1).png',
+            '/portfolio_website/images/polygon/polygon (2).png',
+            '/portfolio_website/images/polygon/polygon (3).png',
             '/portfolio_website/images/polygon/Polygon Ninja (2).png',
             '/portfolio_website/images/polygon/Polygon Ninja (3).png',
-            '/portfolio_website/images/polygon/4.png',
+            '/portfolio_website/images/polygon/polygon (4).png',
         ],
         details: `
             VR Slicer: started 2-9 July, 7 days
@@ -401,9 +417,9 @@ export const ProjectData = [
                 ktory dziala tylko 60% czasu, i przetestowac Unity XR`,
         stats: [],
         links: [
-            {title: "Polygon Ninja PC version", url:'', filePath:'/portfolio_website/images/polygon/PolygonNinja-PC.zip'},
-            {title: "Polygon Ninja Android version", url:'', filePath:'/portfolio_website/images/polygon/PolygonNinja-Android.apk'},
-            {title: "Physics VR", url:'', filePath:'/portfolio_website/images/polygon/physics-VR.apk'}
+            {title: "Polygon Ninja PC version", url:'https://drive.google.com/file/d/1X0ShvZyV7d8lqo0nokJ7bIQMlMBBwq-J/view?usp=sharing', filePath:''},
+            {title: "Polygon Ninja Android version", url:'https://drive.google.com/file/d/1pAk2RWLG3H_Qq2dR-1e5q4GR5AaiiXR5/view?usp=sharing', filePath:''},
+            {title: "Physics VR", url:'https://drive.google.com/file/d/1SrFLOy8KgSO8PDlgPXApOMVPgI_D9PVo/view?usp=sharing', filePath:''}
         ]
     }, 
     // xmasDOS
@@ -428,7 +444,7 @@ export const ProjectData = [
             '/portfolio_website/images/dos/DSC_0277.JPG',
             '/portfolio_website/images/dos/IMG_20221014_131555.jpg',
             '/portfolio_website/images/dos/IMG_20221013_211955.jpg',
-            '/portfolio_website/images/dos/MOV_0286.mp4',
+            'https://www.youtube.com/watch?v=3Dx9uBcoolM',
             'https://youtu.be/FyOHxBz1YqE?si=J6o-pDji89J4I1Lq',
             'https://youtu.be/8Y-52JqTwEc?si=SdqqXLbhfiVG73wr',
             'https://youtu.be/rGNJDvKczU4?si=k3cUHvmzFjQ3aahs',
@@ -471,7 +487,7 @@ export const ProjectData = [
             '/portfolio_website/images/calc/IMG_20221229_232231.jpg',
             '/portfolio_website/images/calc/IMG_20230106_220229.jpg',
             '/portfolio_website/images/calc/IMG_20230125_174154.jpg',
-            '/portfolio_website/images/calc/calcIO div 0 presentation.mp4',
+            'https://youtu.be/5EYUNZrHSXc',
 
         ],
         details: `
@@ -495,9 +511,9 @@ export const ProjectData = [
         images: [
             '/portfolio_website/images/particles/Particles V.JPG',
             '/portfolio_website/images/particles/Particles VII.JPG',
-            '/portfolio_website/images/particles/Particles I.mp4',
-            '/portfolio_website/images/particles/Particles II.mp4',
-            '/portfolio_website/images/particles/Particles III.mp4',
+            'https://youtu.be/Wavc3CdgrGE',
+            'https://youtu.be/cTLkQZIiiEs',
+            'https://youtu.be/I6bxJUzhSXw',
             'https://youtu.be/nL1JxKPHErQ',
         ],
         details: `
@@ -527,7 +543,7 @@ export const ProjectData = [
         stats: [
         ],
         links: [
-            {title: "Mandlebrot Simulation SFML - PC", url:'', filePath:'/portfolio_website/images/fractal/fractal-sim-sfml.zipp'},
+            {title: "Mandlebrot Simulation SFML - PC", url:'https://drive.google.com/file/d/1k3KrQlb5L8fyVGXpApBIKcrTEVxP9aYv/view?usp=sharing', filePath:''},
         ]
     },
     // fishing
@@ -537,19 +553,20 @@ export const ProjectData = [
         startDate: '2022-05',
         endDate: '2022-05',
         description: 'a game about fishing in the future',
-        image1: '/portfolio_website/images/fishing/ (9).png',
-        image2: '/portfolio_website/images/fishing/ (3).png',
+        image1: '/portfolio_website/images/fishing/fishing (6).png',
+        image2: '/portfolio_website/images/fishing/fishing (3).png',
         images: [
-            '/portfolio_website/images/fishing/ (1).png',
-            '/portfolio_website/images/fishing/ (2).jpg',
-            '/portfolio_website/images/fishing/ (3).png',
-            '/portfolio_website/images/fishing/ (4).png',
-            '/portfolio_website/images/fishing/ (8).png',
-            '/portfolio_website/images/fishing/ (9).png',
-            '/portfolio_website/images/fishing/ (10).png',
-            '/portfolio_website/images/fishing/ (14).png',
-            '/portfolio_website/images/fishing/(1).jpg',
-            '/portfolio_website/images/fishing/DSC_0567.JPG',
+            '/portfolio_website/images/fishing/fishing (1).png',
+            '/portfolio_website/images/fishing/fishing (2).png',
+            '/portfolio_website/images/fishing/fishing (3).png',
+            '/portfolio_website/images/fishing/fishing (4).png',
+            '/portfolio_website/images/fishing/fishing (5).png',
+            '/portfolio_website/images/fishing/fishing (6).png',
+            '/portfolio_website/images/fishing/fishing (7).png',
+            '/portfolio_website/images/fishing/fishing (8).png',
+            '/portfolio_website/images/fishing/fishing (1).jpg',
+            '/portfolio_website/images/fishing/fishing (2).jpg',
+            '/portfolio_website/images/fishing/fishing (3).JPG',
             'https://youtu.be/zBdteTejxA4',
             'https://youtu.be/fCfxW-BThqU',
             'https://youtu.be/_lRl5IoEr8w',
@@ -673,17 +690,17 @@ export const ProjectData = [
         startDate: '2020-08-16',
         endDate: '2020-11-16',
         description: 'first complete game, a typical pixel-art platformer (with guns obviously)',
-        image1: '/portfolio_website/images/scalar/ (2).png',
-        image2: '/portfolio_website/images/scalar/ (6).png',
+        image1: '/portfolio_website/images/scalar/scalar (2).png',
+        image2: '/portfolio_website/images/scalar/scalar (6).png',
         images: [
-            '/portfolio_website/images/scalar/ (1).png',
-            '/portfolio_website/images/scalar/ (2).png',
-            '/portfolio_website/images/scalar/ (3).png',
-            '/portfolio_website/images/scalar/ (4).png',
-            '/portfolio_website/images/scalar/ (5).png',
-            '/portfolio_website/images/scalar/ (6).png',
-            '/portfolio_website/images/scalar/ (7).png',
-            '/portfolio_website/images/scalar/ (8).png',
+            '/portfolio_website/images/scalar/scalar (1).png',
+            '/portfolio_website/images/scalar/scalar (2).png',
+            '/portfolio_website/images/scalar/scalar (3).png',
+            '/portfolio_website/images/scalar/scalar (4).png',
+            '/portfolio_website/images/scalar/scalar (5).png',
+            '/portfolio_website/images/scalar/scalar (6).png',
+            '/portfolio_website/images/scalar/scalar (7).png',
+            '/portfolio_website/images/scalar/scalar (8).png',
         ],
         details: `
         First finished game, a platformaer where you battle new york mafia in
@@ -694,7 +711,7 @@ export const ProjectData = [
             {label: "Time spent", value: "3 months"}
         ],
         links: [
-            {title: "Scalar PC version", url:'', filePath:'/portfolio_website/images/scalar/Scalar-pc-1.0.0.zip'}
+            {title: "Scalar PC version", url:'https://drive.google.com/file/d/1UY55g5vfPRTrlDunAN6socQnu9LB02k3/view?usp=sharing', filePath:''}
         ]
     },
     // daes
@@ -720,7 +737,7 @@ export const ProjectData = [
             '/portfolio_website/images/daes/DAES (11).JPG',
             '/portfolio_website/images/daes/DAES (12).JPG',
             '/portfolio_website/images/daes/DAES (13).JPG',
-            '/portfolio_website/images/daes/DAES-music-presentation.mp4',
+            'https://youtu.be/Ls85uMQ-O8I',
         ],
         details: `
             I scripted all the games I could think of and then filed the rest of the 
@@ -738,15 +755,15 @@ export const ProjectData = [
         startDate: '2021-03-07',
         endDate: '2021-03-31',
         description: 'playing around with procedural generation',
-        image1: '/portfolio_website/images/post/2.png',
-        image2: '/portfolio_website/images/post/1.png',
+        image1: '/portfolio_website/images/post/post (2).png',
+        image2: '/portfolio_website/images/post/post (1).png',
         images: [
-            '/portfolio_website/images/post/1.png',
-            '/portfolio_website/images/post/2.png',
-            '/portfolio_website/images/post/3.png',
-            '/portfolio_website/images/post/4.JPG',
-            '/portfolio_website/images/post/5.png',
-            '/portfolio_website/images/post/post-vid.mp4',
+            '/portfolio_website/images/post/post (1).png',
+            '/portfolio_website/images/post/post (2).png',
+            '/portfolio_website/images/post/post (3).png',
+            '/portfolio_website/images/post/post (1).JPG',
+            '/portfolio_website/images/post/post (4).png',
+            'https://youtu.be/ORgBsOLUDH0',
         ],
         details: `
         Little game to play around with procedurally generated terrain,
@@ -761,8 +778,8 @@ export const ProjectData = [
             {label: "Time spent", value: "3 weeks and 3 days"}
         ],
         links: [
-            {title: "The Post Guide PC version", url:'', filePath:'/portfolio_website/images/post/PostGuide-PC.zip'},
-            {title: "The Post Guide Android version", url:'', filePath:'/portfolio_website/images/post/ThePostGuide-Android.apk'}
+            {title: "The Post Guide PC version", url:'https://drive.google.com/file/d/1BYKGIjRZb4ZTDGTTBrvpA7a30rOLetNw/view?usp=sharing', filePath:''},
+            {title: "The Post Guide Android version", url:'https://drive.google.com/file/d/1m73LjLtqI6OTcIL6LBKIRzzQVNenNR37/view?usp=sharing', filePath:''}
         ]
     },
     // aurea
@@ -805,14 +822,14 @@ export const ProjectData = [
         startDate: '2020-??-??',
         endDate: '2020-??-??',
         description: 'simple game to play around with my new-found unity skills xd',
-        image1: '/portfolio_website/images/tower/(5).png',
-        image2: '/portfolio_website/images/tower/ (4).png',
+        image1: '/portfolio_website/images/tower/tower (5).png',
+        image2: '/portfolio_website/images/tower/tower (4).png',
         images: [
-            '/portfolio_website/images/tower/ (1).png',
-            '/portfolio_website/images/tower/ (2).png',
-            '/portfolio_website/images/tower/ (3).png',
-            '/portfolio_website/images/tower/ (4).png',
-            '/portfolio_website/images/tower/(5).png',
+            '/portfolio_website/images/tower/tower (1).png',
+            '/portfolio_website/images/tower/tower (2).png',
+            '/portfolio_website/images/tower/tower (3).png',
+            '/portfolio_website/images/tower/tower (4).png',
+            '/portfolio_website/images/tower/tower (5).png',
         ],
         details: `
         simple game to play around with my new-found unity skills xd
@@ -822,8 +839,8 @@ export const ProjectData = [
             {label: "Time spent", value: "1 month"}
         ],
         links: [
-            {title: "Tower Defense 2 PC version", url:'', filePath:'/portfolio_website/images/tower/TowerDefense2-Main-PC.zip'},
-            {title: "Tower Defense 2 - Lena DLC - PC", url:'', filePath:'/portfolio_website/images/tower/TowerDefense2-SisterDLC-PC.zip'}
+            {title: "Tower Defense 2 PC version", url:'https://drive.google.com/file/d/1Q86ukXuLrG2GqrQutQ68xphRSwuIN4KL/view?usp=sharing', filePath:''},
+            {title: "Tower Defense 2 - Lena DLC - PC", url:'https://drive.google.com/file/d/1DI8TBaBhKgFm9cJ4P6LytcUPcTBMMssX/view?usp=sharing', filePath:''}
         ]
     },
 ]

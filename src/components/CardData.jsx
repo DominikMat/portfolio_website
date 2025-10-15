@@ -17,10 +17,4 @@ export const ArtData = [
     { id: 10, title: 'Art 3', date: '2020-01-01', src:'/portfolio_website/images/art_folder/Shelf.png', aspect: 1.78, details:'further details about the art'},
     { id: 11, title: 'Art 3', date: '2020-01-01', src:'/portfolio_website/images/art_folder/vr_render.png', aspect: 1, details:'further details about the art'},
     { id: 12, title: 'Art 3', date: '2020-01-01', src:'/portfolio_website/images/art_folder/Holy Shit PRISM.png', aspect: 1, details:'further details about the art'},
-    { id: 19, title: 'Video 5', date: '2020-01-01', src:'/portfolio_website/images/art_folder/MOV_0067.mp4', aspect: 1.78, details:'further details about the art'},
-    { id: 13, title: 'Video 1', date: '2020-01-01', src:'/portfolio_website/images/art_folder/Backgroud.mp4', aspect: 1.78, details:'further details about the art'},
-    { id: 14, title: 'Video 2', date: '2020-01-01', src:'/portfolio_website/images/art_folder/Grid but not 3D.mp4', aspect: 1.78, details:'further details about the art'},
-    { id: 15, title: 'Video 3', date: '2020-01-01', src:'/portfolio_website/images/art_folder/Reklama Powietrza.mp4', aspect: 1.78, details:'further details about the art'},
-    { id: 17, title: 'Gif 1', date: '2020-01-01', src:'/portfolio_website/images/art_folder/Glitch Dam.gif', aspect: 1.78, details:'further details about the art'},
-    { id: 18, title: 'Gif 2', date: '2020-01-01', src:'/portfolio_website/images/art_folder/Glitch Igor.gif', aspect: 1.78, details:'further details about the art'},
 ]

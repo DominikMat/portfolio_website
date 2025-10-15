@@ -72,7 +72,6 @@ export default function ArtDisplayAdaptiveColumns({ items = [] }) {
         // cols = ile kolumn zajmuje element (1..columns)
         const rawCols = Math.round(aspect * ASPECT_MULT)
         const cols = clamp(rawCols, 1, columns)
-        const isVideo = item.src.endsWith('.mp4') || item.type === 'video' ;
 
         // policz rzeczywiste rows na podstawie colWidth
         let rows = 1
@@ -99,28 +98,18 @@ export default function ArtDisplayAdaptiveColumns({ items = [] }) {
                 marginRight: '15px',
             }}
           >
-            {isVideo ? (
-            <video
-                src={item.src}
-                controls
-                muted
-                loop
-                style={{ width: '100%', height: '100%', objectFit: 'contain' }}
+            <Image
+              src={item.src}
+              alt={item.title || ''}
+              style={{
+                  maxWidth: '100%',
+                  maxHeight: '100%',
+                  width: 'auto',
+                  height: 'auto',
+                  objectFit: 'contain',
+                  borderRadius: '8px',
+              }}
             />
-            ) : (
-                <Image
-                src={item.src}
-                alt={item.title || ''}
-                style={{
-                    maxWidth: '100%',
-                    maxHeight: '100%',
-                    width: 'auto',
-                    height: 'auto',
-                    objectFit: 'contain',
-                    borderRadius: '8px',
-                }}
-                />
-            )}
           </div>
         )
       })}
