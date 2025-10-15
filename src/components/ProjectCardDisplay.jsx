@@ -41,12 +41,12 @@ export default function ProjetCardDisplay ( {items} ) {
                     }}
                 >
                     {/* Image at the top (takes ~55% of height) */}
-                    <Image src={item.image1} alt={item.title} style={{ width: '100%', height: '100%', objectFit: 'cover', maxHeight: '35vh'}} preview={false} />
+                    <Image src={item.image1 || 'public/project-template.png'} alt={item.title} style={{ width: '100%', height: '100%', objectFit: 'cover', maxHeight: '35vh'}} preview={false} />
 
                     <div style={{ margin: 10 }}> </div>
 
                     {/* Image at the top (takes ~55% of height) */}
-                    <Image src={item.image2} alt={item.title} style={{ width: '100%', height: '100%', objectFit: 'cover', maxHeight: '35vh' }} preview={false} />
+                    <Image src={item.image2 || 'public/project-template.png'} alt={item.title} style={{ width: '100%', height: '100%', objectFit: 'cover', maxHeight: '35vh' }} preview={false} />
 
                     {/* Metadata area (title, date, description) */}
                     <Divider style={{ margin: 10 }}> </Divider>
