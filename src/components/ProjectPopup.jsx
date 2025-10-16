@@ -5,10 +5,10 @@ import Calendar from 'antd/lib/calendar';
 import YouTube from 'react-youtube';
 import LazyYT from './LazyYT';
 
-export default function ModalSimple({ selected, modalOpen, setModalOpen }) {
+export default function ModalSimple({ selected, modalOpen, setModalOpen, isMobile }) {
     const carouselItemStyle = {
         margin: 0,
-        height: '340px',
+        height: isMobile? '200px' : '340px',
         width: '100%',
         objectFit: 'contain',
         color: '#fff',
@@ -18,11 +18,11 @@ export default function ModalSimple({ selected, modalOpen, setModalOpen }) {
     };
 
     const rightPanelStyle = {
-        margin: 10,
+        margin: isMobile? 5 : 10,
         background: '#616161',
         borderRadius: 8,
-        padding: 20,
-        color: '#fff'
+        padding: isMobile? 10 : 20,
+        color: '#fff',
     };
     const rightPanelTitleStyle = {
         color: '#fff',
@@ -55,7 +55,10 @@ export default function ModalSimple({ selected, modalOpen, setModalOpen }) {
             wrapClassName="custom-modal"
         >
             {selected && (
-                <div style={{ display: 'flex' }}>
+                <div style={{ 
+                    display: 'flex', 
+                    flexDirection: isMobile? 'column' : 'row',
+                }}>
                     {/* Left: Carousel and description */}
                     <div style={{
                         flex: 2.5,
@@ -66,9 +69,8 @@ export default function ModalSimple({ selected, modalOpen, setModalOpen }) {
                         background: '#2b2b2bff'
                     }}>
                         {/* Header */}
-                        <div style={{ padding: '10px', paddingBottom: 35 }}>
+                        <div style={{ padding: '10px', paddingBottom: isMobile? 10 : 35 }}>
                             <h1 style={{
-                                margin: 0,
                                 color: '#fff',
                                 fontWeight: 'bold',
                                 fontSize: 32,
@@ -80,10 +82,10 @@ export default function ModalSimple({ selected, modalOpen, setModalOpen }) {
                         </div>
 
                         {/* Carousel */}
-                        <div style={{ minHeight: '60%' }}>
-                            <Carousel arrows centerMode>
-                                {selected.images.length > 0 ? (
-                                    selected.images.map((src, idx) => {
+                            <div style={{ minHeight: isMobile ? '0%' : '60%', marginBottom: isMobile? 15 : 0}}>
+                                <Carousel arrows centerMode={!isMobile}>
+                                    {selected.images.length > 0 ? (
+                                        selected.images.map((src, idx) => {
                                         const videoId = src && typeof src === 'string' && src.startsWith('http')
                                             ? extractYouTubeId(src)
                                             : null;
@@ -113,7 +115,7 @@ export default function ModalSimple({ selected, modalOpen, setModalOpen }) {
                             borderRadius: 8,
                             padding: 25,
                             color: '#fff',
-                            fontSize: 18,
+                            fontSize: isMobile? '3vw' : 18,
                             overflowY: 'auto',
                             minHeight: 170
                         }}>
@@ -128,15 +130,14 @@ export default function ModalSimple({ selected, modalOpen, setModalOpen }) {
                         flexDirection: 'column',
                         background: '#16213bff',
                         borderLeft: '1px solid #444',
-                        padding: 32,
-                        minWidth: 320,
+                        padding: isMobile? 15 : 32,
+                        minWidth: isMobile? 0 : 320,
                         maxWidth: 400,
                         justifyContent: 'flex-start'
                     }}>
                         {Array.isArray(selected.stats) && selected.stats.length > 0 && (
                             <div style={rightPanelStyle}>
                                 <h3 style={rightPanelTitleStyle}>Statistics</h3>
-                                <Divider />
                                 <table style={{ width: '100%', color: '#fff', fontSize: 16 }}>
                                     <tbody>
                                         {selected.stats.map((stat, idx) => (
@@ -152,7 +153,6 @@ export default function ModalSimple({ selected, modalOpen, setModalOpen }) {
 
                         <div style={rightPanelStyle}>
                             <h3 style={rightPanelTitleStyle}>Project Timeline</h3>
-                            <Divider />
                             <div style={rightPanelTextStyle}>
                                 <span style={{ fontWeight: 600 }}>Start:</span> {selected.startDate || 'N/A'} <br />
                                 <span style={{ fontWeight: 600 }}>End:</span> {selected.endDate || 'N/A'}
@@ -162,7 +162,6 @@ export default function ModalSimple({ selected, modalOpen, setModalOpen }) {
                         {Array.isArray(selected.links) && selected.links.length > 0 && (
                             <div style={rightPanelStyle}>
                                 <h3 style={rightPanelTitleStyle}>Links</h3>
-                                <Divider />
                                 <ul style={{ paddingLeft: 20, margin: 0 }}>
                                     {selected.links.map((link, idx) => (
                                         <li key={idx} style={{ marginBottom: 8 }}>
@@ -185,7 +184,6 @@ export default function ModalSimple({ selected, modalOpen, setModalOpen }) {
 
                         <div style={rightPanelStyle}>
                             <h3 style={rightPanelTitleStyle}>Category</h3>
-                            <Divider />
                             <div style={rightPanelTextStyle}>{selected.tag.toUpperCase() || 'N/A'}</div>
                         </div>
                     </div>

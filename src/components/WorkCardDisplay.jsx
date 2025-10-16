@@ -1,8 +1,13 @@
 import {Card, Image} from 'antd'
 
-export default function WorkCardDisplay ( {items, onclick} ) {
+export default function WorkCardDisplay ( {items, isMobile} ) {
     return (
-        <div style={{ height: '100vh', overflowY: 'auto', padding: 24, width: '80vw' }}>
+        <div style={{ 
+            width: isMobile? '100vw' : '80vw',
+            height: isMobile? '85vh' : '100vh',
+            overflowY: 'auto', 
+            padding: 24,
+        }}>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
                 {items.map(item => (
                     <Card

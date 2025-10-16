@@ -2,10 +2,10 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Image } from 'antd'
 
-export default function ArtDisplayAdaptiveColumns({ items = [] }) {
+export default function ArtDisplayAdaptiveColumns({ items = [], isMobile }) {
   const GAP_PX = 0
-  const BASE_ROW_PX = 60
-  const ASPECT_MULT = 2
+  const BASE_ROW_PX = 20
+  const ASPECT_MULT = isMobile? 1.4 : 2
 
   // <- główny parametr, zmień żeby wpływać na "wielkość" kafli
   const desiredColPx = 145
@@ -53,9 +53,8 @@ export default function ArtDisplayAdaptiveColumns({ items = [] }) {
     <div
       ref={containerRef}
       style={{
-        height: '100vh',
-        width: '80vw',        // możesz zmienić na '100%' jeśli chcesz, żeby rodzic sterował
-        margin: '20px',
+        width: isMobile? '100vw' : '80vw',
+        height: isMobile? '85vh' : '100vh',
         overflowY: 'auto',
         boxSizing: 'border-box',
         padding: 12,
